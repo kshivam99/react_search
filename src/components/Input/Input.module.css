@@ -1,0 +1,9 @@
+.searchBox{
+    background-color: #E5E7EB;
+    height:3rem;
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    color:#4B5563;
+}
