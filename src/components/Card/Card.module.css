@@ -1,16 +1,18 @@
 .card0{
     padding:1rem;
+    text-align: left;
 }
 .card0:hover{
-    background-color: #D1D5DB;
+    background-color: #F3F4F6;
     cursor: pointer;
 }
 .card1{
     padding:1rem;
     cursor:pointer;
+    text-align: left;
 }
 .card1hover{
-    background-color: #D1D5DB;
+    background-color: #F3F4F6;
 }
 
 .id{
@@ -23,4 +25,15 @@
 .name{
     font-size: 1.2rem;
     margin: 0;
+}
+/* .name span{
+    color:red;
+} */
+.dot{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #3B82F6;
+    display: inline-block;
+    margin:0.1rem 0.5rem;
 }
