@@ -32,7 +32,7 @@ function DropDown({isActive}) {
                 ))
             }
             {
-                !state.result.length && "Nothing FOund"
+                !state.result.length && <div className={styles.nouser}>No User Found</div>
             }
         </div>
     )

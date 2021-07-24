@@ -5,3 +5,12 @@
     margin:0 auto;
     overflow-y: scroll;
 }
+
+.nouser{
+    background-color: #F3F4F6;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
