@@ -1,11 +1,14 @@
 import React from 'react'
-import Input from '../components/Input/Input'
+import Input from '../components/Input/Input';
+import DropDown from '../components/DropDown/DropDown';
 
 function Search() {
+    const [isActive, setIsActive] = React.useState(false);
     return (
-        <div>
-            <Input />
-        </div>
+        <>
+            <Input setIsActive={setIsActive}/>
+            <DropDown isActive={isActive}/>
+        </>
     )
 }
 
